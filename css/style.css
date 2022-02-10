@@ -1,9 +1,25 @@
+body{
+    font-size: .8rem;
+}
+
 .box{
     background-color: #016cfb;
-    border: 1px solid white;
+    margin: 1px;
     color: white;
-    height: 50px;
+    height: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: .5rem;
+}
+
+.nested{
+    background-color: #01e064;
+    height: calc(40px - 1rem);
+    
+    
+}
+
+.container{
+    margin-bottom: 1rem;
 }

@@ -1,0 +1,145 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* container with max-with like extra large breakpoint */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* create row */
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+/* rules to have the safety of the right behavior of the display flex */
+[class*="col-"] {
+    flex: 0 0 auto;
+}
+
+/* mobile first */
+
+/* create columns */
+
+.xs-col-1 {
+    flex-basis: calc((100% / 12) * 1);
+    max-width: calc((100% / 12) * 1);
+}
+
+.xs-col-2 {
+    flex-basis: calc((100% / 12) * 2);
+    max-width: calc((100% / 12) * 2);
+}
+
+.xs-col-3 {
+    flex-basis: calc((100% / 12) * 3);
+    max-width: calc((100% / 12) * 3);
+}
+
+.xs-col-4 {
+    flex-basis: calc((100% / 12) * 4);
+    max-width: calc((100% / 12) * 4);
+}
+
+.xs-col-5 {
+    flex-basis: calc((100% / 12) * 5);
+    max-width: calc((100% / 12) * 5);
+}
+
+.xs-col-6 {
+    flex-basis: calc((100% / 12) * 6);
+    max-width: calc((100% / 12) * 6);
+}
+
+.xs-col-7 {
+    flex-basis: calc((100% / 12) * 7);
+    max-width: calc((100% / 12) * 7);
+}
+
+.xs-col-8 {
+    flex-basis: calc((100% / 12) * 8);
+    max-width: calc((100% / 12) * 8);
+}
+
+.xs-col-9 {
+    flex-basis: calc((100% / 12) * 9);
+    max-width: calc((100% / 12) * 9);
+}
+
+.xs-col-10 {
+    flex-basis: calc((100% / 12) * 10);
+    max-width: calc((100% / 12) * 10);
+}
+
+.xs-col-11 {
+    flex-basis: calc((100% / 12) * 11);
+    max-width: calc((100% / 12) * 11);
+}
+
+.xs-col-12 {
+    flex-basis: calc((100% / 12) * 12);
+    max-width: calc((100% / 12) * 12);
+}
+/* create offset */
+
+.xs-col-offset-1 {
+    margin-left: calc((100% / 12) * 1);
+}
+
+.xs-col-offset-2 {
+    margin-left: calc((100% / 12) * 2);
+}
+
+.xs-col-offset-3 {
+    margin-left: calc((100% / 12) * 3);
+}
+
+.xs-col-offset-4 {
+    margin-left: calc((100% / 12) * 4);
+}
+
+.xs-col-offset-5 {
+    margin-left: calc((100% / 12) * 5);
+}
+
+.xs-col-offset-6 {
+    margin-left: calc((100% / 12) * 6);
+}
+
+.xs-col-offset-7 {
+    margin-left: calc((100% / 12) * 7);
+}
+
+.xs-col-offset-8 {
+    margin-left: calc((100% / 12) * 8);
+}
+
+.xs-col-offset-9 {
+    margin-left: calc((100% / 12) * 9);
+}
+
+.xs-col-offset-10 {
+    margin-left: calc((100% / 12) * 10);
+}
+
+.xs-col-offset-11 {
+    margin-left: calc((100% / 12) * 11);
+}
+
+.xs-col-offset-12 {
+    margin-left: calc((100% / 12) * 12);
+}
+
+
+/* create a generic column that doesn't follow the layout division rule in 12 columns */
+.col {
+    flex-grow: 1;
+    flex-basis: 0;
+    max-width: 100%;
+}

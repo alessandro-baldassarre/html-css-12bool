@@ -16,7 +16,6 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 100%;
 }
 
 /* rules to have the safety of the right behavior of the display flex */

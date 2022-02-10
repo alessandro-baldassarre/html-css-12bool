@@ -1,0 +1,9 @@
+.box{
+    background-color: #016cfb;
+    border: 1px solid white;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
